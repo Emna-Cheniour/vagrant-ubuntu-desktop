@@ -3,8 +3,8 @@ This repository contains a Vagrantfile configured to create a Ubuntu Desktop vir
 
 ## Prerequisites
 Before using this Vagrantfile to create a virtual machine, ensure you have the following installed:
-- [Vagrant](https://developer.hashicorp.com/vagrant/downloads)
-- [VirtualBox](https://download.virtualbox.org/virtualbox/7.0.14/VirtualBox-7.0.14-161095-Win.exe)
+- <a href="https://developer.hashicorp.com/vagrant/downloads" target="_blank"> Vagrant </a>
+- <a href="https://download.virtualbox.org/virtualbox/7.0.14/VirtualBox-7.0.14-161095-Win.exe" target="_blank"> VirtualBox </a>
 
 ## Getting Started
 1. Clone or download the Vagrantfile provided in this repository.
@@ -12,18 +12,18 @@ Before using this Vagrantfile to create a virtual machine, ensure you have the f
 2. Open a terminal and navigate to the directory containing the Vagrantfile.
 
 3. Run the following command to create and configure the virtual machine:<br>
-<span style="color:red">some **vagrant up** text</span>
+**vagrant up**
 
-4.Once the VM is created, you can access it either via SSH using the command <span style="color:red">some **vagrant ssh** text</span> in your terminal, or directly through the VirtualBox window interface.
+4. Once the VM is created, you can access it either via SSH using the command <br> **vagrant ssh** <br> in your terminal, or directly through the VirtualBox window interface.<br><br>
 _Note: Once installed, the VM can be accessed and managed anytime via the VirtualBox interface._
 
 5. The default username and password for the VM are both `vagrant`.
 
 6. To stop the virtual machine, use:<br>
-<span style="color:red">some **vagrant halt** text</span>
+**vagrant halt**
 
 7. To completely remove the virtual machine, run:<br>
-<span style="color:red">some **vagrant destroy** text</span>
+**vagrant destroy**
 
 ## Vagrantfile Configuration
 - The Vagrantfile is pre-configured to use the `generic/ubuntu2204` base box.
